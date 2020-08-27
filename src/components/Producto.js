@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 //Redux
@@ -33,9 +33,6 @@ const Producto = ({producto}) => {
                 dispatch(borrarProductoAction(id))
             }
           })
-
-
-        
     }
 
     //Función que redirige
